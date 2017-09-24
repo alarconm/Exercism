@@ -19,11 +19,12 @@ class Gigasecond {
 
         if (birthDateTime != null) {
 
-            return birthDateTime.plusSeconds(100000000);
+            return birthDateTime.plusSeconds(1000000000);
 
         }
-
-        return birthDateTime;
+        LocalDateTime convertedDate = LocalDateTime.of(birthDate.getYear(),
+                birthDate.getMonth(),birthDate.getDayOfMonth(), 0, 00, 00);
+        return convertedDate.plusSeconds(1000000000);
     }
 
 }
