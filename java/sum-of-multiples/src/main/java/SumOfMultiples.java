@@ -1,11 +1,19 @@
 class SumOfMultiples {
 
+    private int sum;
+
     SumOfMultiples(int number, int[] set) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+
+        for(int i = 1; i <= number; i++) {
+            if(i % set[0] == 0 || i % set[1] == 0) {
+                this.sum += i;
+            }
+        }
+
     }
 
     int getSum() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return this.sum;
     }
 
 }
