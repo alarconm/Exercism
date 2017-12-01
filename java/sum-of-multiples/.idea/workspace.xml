@@ -8,7 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../protein-translation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../protein-translation/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SumOfMultiples.java" afterPath="$PROJECT_DIR$/src/main/java/SumOfMultiples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SumOfMultiplesTest.java" afterPath="$PROJECT_DIR$/src/test/java/SumOfMultiplesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,24 +24,11 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SECOND">
-                    <first_editor relative-caret-position="0">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </first_editor>
-                    <second_editor />
-                  </state>
-                </provider>
-              </entry>
-            </file>
             <file leaf-file-name="SumOfMultiplesTest.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/SumOfMultiplesTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2329">
-                    <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+                  <state relative-caret-position="1309">
+                    <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -63,11 +49,11 @@
       <file leaf-file-name="SumOfMultiples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SumOfMultiples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="12" column="113" lean-forward="false" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
               <folding>
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -401,8 +387,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SumOfMultiples.java" />
         <option value="$PROJECT_DIR$/src/test/java/SumOfMultiplesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SumOfMultiples.java" />
       </list>
     </option>
   </component>
@@ -428,8 +414,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,7 +458,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,6 +487,46 @@
       <option name="MAIN_CLASS_NAME" value="SumOfMultiplesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sum-of-multiples_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumOfMultiplesTest" />
+      <option name="METHOD_NAME" value="testSumOfMultiplesOf3and5UpToOneHundred" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sum-of-multiples_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumOfMultiplesTest" />
+      <option name="METHOD_NAME" value="testSumOfMultiplesOf3and5UpToTen" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -592,9 +618,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToTen" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToTen" />
       </list>
     </recent_temporary>
   </component>
@@ -612,22 +645,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SumOfMultiplesTest - 2017.11.28 at 21h 39m 54s.xml">
-      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SumOfMultiplesTest - 2017.11.28 at 21h 40m 07s.xml">
-      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SumOfMultiplesTest - 2017.11.28 at 21h 40m 37s.xml">
       <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest - 2017.11.30 at 21h 25m 10s.xml">
+      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest - 2017.11.30 at 21h 26m 53s.xml">
+      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest - 2017.11.30 at 21h 30m 50s.xml">
+      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest - 2017.11.30 at 21h 32m 59s.xml">
+      <configuration name="SumOfMultiplesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest_testSumOfMultiplesOf3and5UpToOneHundred - 2017.11.30 at 21h 26m 45s.xml">
+      <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest_testSumOfMultiplesOf3and5UpToOneHundred - 2017.11.30 at 21h 31m 07s.xml">
+      <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest_testSumOfMultiplesOf3and5UpToOneHundred - 2017.11.30 at 21h 32m 52s.xml">
+      <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToOneHundred" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest_testSumOfMultiplesOf3and5UpToTen - 2017.11.30 at 21h 25m 20s.xml">
+      <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToTen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumOfMultiplesTest_testSumOfMultiplesOf3and5UpToTen - 2017.11.30 at 21h 26m 33s.xml">
+      <configuration name="SumOfMultiplesTest.testSumOfMultiplesOf3and5UpToTen" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -667,8 +722,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SumOfMultiples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,7 +744,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -686,19 +751,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SumOfMultiplesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="1309">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SumOfMultiples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="12" column="113" lean-forward="false" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
           <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
