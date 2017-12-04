@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class LuhnValidator {
 
     boolean isValid(String candidate) {
@@ -11,18 +14,46 @@ class LuhnValidator {
 //        add number to an integer with a running sum of all extracted digits
 //        after loop is completed check the sum of all digits mod 10 and if it equals zero it is valid
 
+
         if (candidate.length() <= 1) {
             return false;
         }
 
-        for (int i = 0; i < candidate.length(); i++) {
+        ArrayList<Integer> id = new ArrayList<>();
 
-            if (!Character.isDigit(candidate.charAt(i)) && candidate.charAt(i) == ' ') {
+        for (int i = 0; i < candidate.length(); i++) {
+            if (Character.isDigit(candidate.charAt(i))) {
+                id.add(Character.getNumericValue(candidate.charAt(i)));
+
+            } else if (candidate.charAt(i) != ' ') {
                 return false;
             }
         }
 
-        return true;
+        for (int i = id.size() - 2; i >= 0; i -= 2) {
+
+                int temp = id.get(i) * 2;
+
+                if (temp > 9) {
+                    temp = temp - 9;
+                }
+
+                id.set(i, temp);
+        }
+
+        if (id.size() < 2) {
+            return false;
+        }
+
+        int idSum = 0;
+        for (int i : id) {
+            idSum += i;
+        }
+
+        if (idSum % 10 == 0) {
+            return true;
+        }
+        return false;
     }
 
 }
