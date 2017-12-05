@@ -10,6 +10,8 @@ class Matrix {
     private ArrayList<String> rows = new ArrayList<>();
     private ArrayList<String> columns = new ArrayList<>();
 
+//    TODO switch to hashmaps for each row/column? Or integer arrays created with each index using a counter
+
     Matrix(String matrixAsString) {
 
         StringBuilder tempRow = new StringBuilder();
