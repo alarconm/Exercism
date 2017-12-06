@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 class Matrix {
 
@@ -7,13 +8,24 @@ class Matrix {
     //if it hits a newline add the temp arraylist to the master list
     //clear the temp
     //print final master arraylist to check
-    private ArrayList<String> rows = new ArrayList<>();
-    private ArrayList<String> columns = new ArrayList<>();
+    ArrayList<String> rows = new ArrayList<>();
+    ArrayList<String> columns = new ArrayList<>();
+    HashMap<Integer, int[]> rowsMap = new HashMap<>();
 
 //    TODO switch to hashmaps for each row/column? Or integer arrays created with each index using a counter
 
     Matrix(String matrixAsString) {
 
+
+
+//        int counter = 0;
+//        for (int i = 0; i < matrixAsString.length(); i++) {
+//
+//            rowsMap.put(counter, )
+//        }
+
+
+//        ***Attempt with arraylists and stringbuilders***
         StringBuilder tempRow = new StringBuilder();
         StringBuilder tempColumn = new StringBuilder();
 
@@ -22,8 +34,8 @@ class Matrix {
             tempRow.append(matrixAsString.charAt(i));
 
             if (matrixAsString.charAt(i) == '\n') {
-                this.rows.add(tempRow.toString());
-                tempRow = new StringBuilder();
+                rows.add(tempRow.toString());
+//                tempRow = new StringBuilder();
             }
         }
 
@@ -33,10 +45,8 @@ class Matrix {
                 tempColumn.append(rows.get(k).charAt(i));
             }
             columns.add(tempColumn.toString());
-            tempColumn = new StringBuilder();
+//            tempColumn = new StringBuilder();
         }
-
-        System.out.println();
     }
 
     int[] fakeArray = {-1};
@@ -50,10 +60,10 @@ class Matrix {
     }
 
     int getRowsCount() {
-        return this.rows.size();
+        return rows.size();
     }
 
     int getColumnsCount() {
-        return this.columns.size();
+        return columns.size();
     }
 }
