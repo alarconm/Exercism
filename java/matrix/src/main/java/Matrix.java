@@ -2,30 +2,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 class Matrix {
-
-    //create arraylist to hold everything
-    //loop through string adding each character to a temp arraylist
-    //if it hits a newline add the temp arraylist to the master list
-    //clear the temp
-    //print final master arraylist to check
     ArrayList<String> rows = new ArrayList<>();
     ArrayList<String> columns = new ArrayList<>();
     HashMap<Integer, int[]> rowsMap = new HashMap<>();
 
-//    TODO switch to hashmaps for each row/column? Or integer arrays created with each index using a counter
+//    TODO refactor and throw away old solution that isn't working
 
     Matrix(String matrixAsString) {
 
 
-
-//        int counter = 0;
-//        for (int i = 0; i < matrixAsString.length(); i++) {
-//
-//            rowsMap.put(counter, )
-//        }
-
-
-//        ***Attempt with arraylists and stringbuilders***
         StringBuilder tempRow = new StringBuilder();
         StringBuilder tempColumn = new StringBuilder();
 
