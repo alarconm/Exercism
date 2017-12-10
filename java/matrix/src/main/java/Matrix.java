@@ -14,7 +14,7 @@ class Matrix {
     private int[][] matrixBuilder(String matrixAsString) {
 
         String[] rowString = matrixAsString.split("\n");
-        ArrayList<Integer> rowArray = new ArrayList<Integer>();
+        ArrayList<Integer> rowArray = new ArrayList<>();
         ArrayList<Integer> columnArray = new ArrayList<>();
 
         for(int i = 0; i < rowString.length; i++) {
