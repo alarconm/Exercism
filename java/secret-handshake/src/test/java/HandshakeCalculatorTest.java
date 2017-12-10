@@ -23,7 +23,10 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(1));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testThatInput2YieldsADoubleBlink() {
         assertEquals(
@@ -31,7 +34,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(2));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testThatInput4YieldsACloseYourEyes() {
         assertEquals(
@@ -39,7 +46,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(4));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testThatInput8YieldsAJump() {
         assertEquals(
@@ -47,7 +58,11 @@ public class HandshakeCalculatorTest {
                handshakeCalculator.calculateHandshake(8));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testAnInputThatYieldsTwoActions() {
         assertEquals(
@@ -55,7 +70,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(3));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testAnInputThatYieldsTwoReversedActions() {
         assertEquals(
@@ -63,7 +82,11 @@ public class HandshakeCalculatorTest {
                handshakeCalculator.calculateHandshake(19));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testReversingASingleActionYieldsTheSameAction() {
         assertEquals(
@@ -71,7 +94,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(24));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testReversingNoActionsYieldsNoActions() {
         assertEquals(
@@ -79,7 +106,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(16));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testInputThatYieldsAllActions() {
         assertEquals(
@@ -87,7 +118,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(15));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testInputThatYieldsAllActionsReversed() {
         assertEquals(
@@ -95,7 +130,11 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(31));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+
+>>>>>>> 16bd773b8f42689b133e2e07324e46f378bd6479
     @Test
     public void testThatInput0YieldsNoActions() {
         assertEquals(
