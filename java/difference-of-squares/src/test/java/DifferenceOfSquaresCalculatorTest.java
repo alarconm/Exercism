@@ -71,7 +71,7 @@ public class DifferenceOfSquaresCalculatorTest {
         final int actual = calculator.computeDifferenceOfSquares(5);
         assertEquals(expected, actual);
     }
-    
+
     @Test
     public void testDifferenceOfSquaresUpToHundred() {
         final int expected = 25164150;
