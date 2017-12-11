@@ -14,12 +14,14 @@ class Matrix {
     private int[][] matrixBuilder(String matrixAsString) {
 
         String[] rowString = matrixAsString.split("\n");
-        ArrayList<Integer> rowArray = new ArrayList<>();
+         int[][] row = new int[rowString.length][rowString[0].length()];
         ArrayList<Integer> columnArray = new ArrayList<>();
 
         for(int i = 0; i < rowString.length; i++) {
 
             for(int j = 0; j < rowString.length; j++) {
+
+                row[i]. = (Character.getNumericValue(rowString[i].charAt(j)))
 
 
             }
