@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 class Sieve {
@@ -11,28 +12,31 @@ class Sieve {
             throw new IllegalArgumentException("maxPrime can't be less than 2");
         }
 
-        //Initial array holds true for each # 2 to maxPrime
-        ArrayList<Boolean> sieveArray = new ArrayList<>();
+        //Initial map holds true for each # 2 to maxPrime
+        HashMap<Integer, Boolean> sieveMap = new HashMap<>();
         for (int i = 2; i <= maxPrime; i++) {
-            sieveArray.add(true);
+            sieveMap.put(i, true);
         }
 
         for (int i = 2; i <= maxPrime; i++) {
 
-            int counter = 1;
-            if(sieveArray.get(i)) {
-                for(int j = i*i; j <=maxPrime; j += counter*i) {
-                    sieveArray.set(j, false);
-                    counter++;
+            if(sieveMap.get(i)) {
+                for(int j = i+i; j <= maxPrime; j += i) {
+                    sieveMap.replace(j, false);
                 }
             }
         }
-        System.out.println(this.primes);
+        System.out.println(sieveMap);
+
+        for(int i = 2; i < sieveMap.size() + 2; i++) {
+            if (sieveMap.get(i)) {
+                this.primes.add(i);
+                System.out.println(this.primes);
+            }
+        }
     }
 
     List<Integer> getPrimes() {
-
-        List<Integer> primesResult;
 
         return this.primes;
     }
