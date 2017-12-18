@@ -18,7 +18,8 @@ class Sieve {
             sieveMap.put(i, true);
         }
 
-        for (int i = 2; i <= maxPrime; i++) {
+        //Don't have to iterate through all of them, square root of maxPrime takes this to O(n log n)
+        for (int i = 2; i <= Math.sqrt(maxPrime); i++) {
 
             if(sieveMap.get(i)) {
                 for(int j = i+i; j <= maxPrime; j += i) {
@@ -26,18 +27,15 @@ class Sieve {
                 }
             }
         }
-        System.out.println(sieveMap);
 
         for(int i = 2; i < sieveMap.size() + 2; i++) {
             if (sieveMap.get(i)) {
                 this.primes.add(i);
-                System.out.println(this.primes);
             }
         }
     }
 
     List<Integer> getPrimes() {
-
         return this.primes;
     }
 }
