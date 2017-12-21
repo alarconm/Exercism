@@ -54,14 +54,12 @@ public class RotationalCipherTest {
         Assert.assertEquals("Xiwxmrk 1 2 3 xiwxmrk", rotationalCipher.rotate("Testing 1 2 3 testing"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void rotatePunctuation() {
         rotationalCipher = new RotationalCipher(21);
         Assert.assertEquals("Gzo'n zvo, Bmviyhv!", rotationalCipher.rotate("Let's eat, Grandma!"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void rotateAllLetters() {
         rotationalCipher = new RotationalCipher(13);
