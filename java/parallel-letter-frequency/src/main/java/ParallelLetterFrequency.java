@@ -4,8 +4,15 @@ import java.util.Map;
 public class ParallelLetterFrequency {
 
     private Map<Integer, Integer> letterCount = new HashMap<>();
+    private String input;
 
     ParallelLetterFrequency(String input) {
+        this.input = input;
+        compute();
+    }
+
+    private void compute() {
+
         for(int i = 0; i < input.length(); i++) {
             if(Character.isLetter(input.charAt(i))) {
 
