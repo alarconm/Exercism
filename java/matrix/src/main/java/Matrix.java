@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-
 class Matrix {
 
     private int[][] matrix;
@@ -14,60 +11,40 @@ class Matrix {
     private int[][] matrixBuilder(String matrixAsString) {
 
         String[] rowString = matrixAsString.split("\n");
-        ArrayList<Integer> rowArray = new ArrayList<>();
-        ArrayList<Integer> columnArray = new ArrayList<>();
+        String[] columnLength = rowString[0].split(" ");
+        int[][] matrixBuilder = new int[rowString.length][columnLength.length];
 
         for(int i = 0; i < rowString.length; i++) {
 
-            for(int j = 0; j < rowString.length; j++) {
-
-
+            String[] column = rowString[i].split(" ");
+            for (int j = 0; j < columnLength.length; j++) {
+                matrixBuilder[i][j] = Character.getNumericValue(column[j].charAt(0));
             }
-
-
-
         }
-
+        return matrixBuilder;
     }
 
-    int[] fakeArray = {-1};
-
     int[] getRow(int rowNumber) {
-        return fakeArray;
+        int[] row;
+        row = matrix[rowNumber];
+        return row;
     }
 
     int[] getColumn(int columnNumber) {
-        return fakeArray;
+        int[] columns = new int[matrix.length];
+
+        for (int i = 0; i < matrix.length; i++) {
+            columns[i] = matrix[i][columnNumber];
+        }
+
+        return columns;
     }
 
     int getRowsCount() {
-        return rows.size();
+        return matrix.length;
     }
 
     int getColumnsCount() {
-        return columns.size();
+        return matrix[0].length;
     }
 }
-
-
-//        StringBuilder tempRow = new StringBuilder();
-//        StringBuilder tempColumn = new StringBuilder();
-//
-//        for (int i = 0; i < matrixAsString.length(); i++) {
-//
-//            tempRow.append(matrixAsString.charAt(i));
-//
-//            if (matrixAsString.charAt(i) == '\n') {
-//                rows.add(tempRow.toString());
-////                tempRow = new StringBuilder();
-//            }
-//        }
-//
-//        for (int i = 0; i < rows.size(); i++) {
-//
-//            for (int k = 0; k < rows.get(i).length(); k++) {
-//                tempColumn.append(rows.get(k).charAt(i));
-//            }
-//            columns.add(tempColumn.toString());
-////            tempColumn = new StringBuilder();
-//        }
