@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 
@@ -31,12 +32,16 @@ class KindergartenGarden {
         int mapPlaceHolder = 0;
         for (int i = 0; i < garden.length(); i += 2) {
 
+            List<Plant> plants =
+                    Arrays.asList(Plant.getPlant(garden.charAt(mapPlaceHolder)),
+                    Plant.getPlant(garden.charAt(mapPlaceHolder + 1)));
+
             if (garden.charAt(i) == '\n') {
                 mapPlaceHolder = 0;
             }
             else {
-                students.put(studentArray[mapPlaceHolder], Plant.getPlant(garden.charAt(i)));
-                students.get(studentArray[mapPlaceHolder]).add(Plant.getPlant(garden.charAt(i+1)));
+                students.put(studentArray[mapPlaceHolder], plants);
+                students.put(studentArray[mapPlaceHolder], plants);
                 mapPlaceHolder++;
             }
 
