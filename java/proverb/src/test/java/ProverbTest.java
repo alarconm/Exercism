@@ -15,7 +15,10 @@ public class ProverbTest {
         assertThat(proverb, is(expected));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
     @Test
     public void singlePieceOfProverb() {
         String[] words  = new String[]{"nail"};
@@ -25,7 +28,10 @@ public class ProverbTest {
         assertThat(proverb, is(expected));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
     @Test
     public void twoPiecesOfProverb() {
         String[] words  = new String[]{"nail", "shoe"};
@@ -36,7 +42,10 @@ public class ProverbTest {
         assertThat(proverb, is(expected));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
     @Test
     public void shortChainOfConsequences() {
         String[] words  = new String[]{"nail", "shoe", "horse"};
@@ -48,7 +57,10 @@ public class ProverbTest {
         assertThat(proverb, is(expected));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
     @Test
     public void fullProverb() {
         String[] words  = new String[]{"nail", "shoe", "horse", "rider", "message", "battle", "kingdom"};
@@ -64,7 +76,10 @@ public class ProverbTest {
         assertThat(proverb, is(expected));
     }
 
+<<<<<<< HEAD
     @Ignore("Remove to run test")
+=======
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
     @Test
     public void fourPiecesModernizedProverb() {
         String[] words  = new String[]{"pin", "gun", "soldier", "battle"};
