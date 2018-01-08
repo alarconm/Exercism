@@ -1,5 +1,15 @@
 class Proverb {
 
+<<<<<<< HEAD
+    Proverb(String[] words) {
+        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    }
+
+    String recite() {
+        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    }
+
+=======
     private String[] words;
 
     Proverb(String[] words) {
@@ -28,4 +38,5 @@ class Proverb {
 
         return proverb.toString();
     }
+>>>>>>> f7fa7f55173b0c3bed3276de0c93c5e9808fc7bd
 }
