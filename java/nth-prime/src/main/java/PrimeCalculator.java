@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 class PrimeCalculator {
 
-    int nth(int nth) {
+    private ArrayList<Integer> numHolder = new ArrayList<>();
 
-        ArrayList<Integer> numHolder = new ArrayList<>();
+    int nth(int nth) {
 
         if (nth < 1) {
             throw new IllegalArgumentException("n can't be less than 1");
@@ -12,18 +12,22 @@ class PrimeCalculator {
 
         numHolder.add(2);
         int numCheck = 3;
-        while (numHolder.size() < nth) {
 
-            for (int i = 0; i < numHolder.size(); i++) {
-                if (numCheck % numHolder.get(i) == 0) {
-                    numCheck++;
-                    i = 0;
-                }
+        while (numHolder.size() < nth) {
+            if (isPrime(numCheck)) {
+                numHolder.add(numCheck);
             }
-            numHolder.add(numCheck);
             numCheck++;
         }
-
         return numHolder.get(numHolder.size() -1);
+    }
+
+    boolean isPrime(int num) {
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
