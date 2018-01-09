@@ -32,7 +32,6 @@ public class DiamondPrinterTest {
                                      " A ")));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testThreeByThreeDiamond() {
         List<String> output = diamondPrinter.printToList('C');

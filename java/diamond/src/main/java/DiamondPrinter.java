@@ -12,7 +12,7 @@ class DiamondPrinter {
         diamondList.add(start);
 
         for (int i = 1; i <= difference; i++) {
-            diamondList.add(left((i), difference) + " " + "right");
+            diamondList.add(left(i, difference) + " " + right(i, difference));
         }
         diamondList.add(start);
 
@@ -22,6 +22,10 @@ class DiamondPrinter {
 
     String left(int num, int diff) {
         return spaces(diff - num) + (char)(65 + num) + spaces(diff - (num + 1));
+    }
+
+    String right(int num, int diff) {
+        return spaces(diff - (num + 1)) + (char)(65 + num) + spaces(diff - num);
     }
 
 
