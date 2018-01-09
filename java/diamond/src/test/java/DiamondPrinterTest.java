@@ -42,7 +42,6 @@ public class DiamondPrinterTest {
                                      "  A  ")));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testFiveByFiveDiamond() {
         List<String> output = diamondPrinter.printToList('E');
@@ -57,8 +56,7 @@ public class DiamondPrinterTest {
                                      "    A    ")));
     }
 
-    @Ignore("Remove to run test")
-    @Test
+   @Test
     public void testFullDiamond() {
         List<String> output = diamondPrinter.printToList('Z');
         assertThat(output, is(asList("                         A                         ",

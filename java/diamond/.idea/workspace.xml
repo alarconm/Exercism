@@ -24,8 +24,8 @@
             <file leaf-file-name="DiamondPrinterTest.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/DiamondPrinterTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="391">
-                    <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <state relative-caret-position="662">
+                    <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -59,14 +59,14 @@
       <file leaf-file-name="DiamondPrinter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DiamondPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+            <state relative-caret-position="340">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -400,8 +400,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/DiamondPrinterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DiamondPrinter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DiamondPrinterTest.java" />
       </list>
     </option>
   </component>
@@ -490,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiamondPrinterTest.testThreeByThreeDiamond">
+  <component name="RunManager" selected="JUnit.DiamondPrinterTest">
     <configuration name="DiamondPrinterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="diamond_test" />
@@ -638,9 +638,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest.testThreeByThreeDiamond" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest.testTwoByTwoDiamond" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest.testThreeByThreeDiamond" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondPrinterTest.testTwoByTwoDiamond" />
       </list>
     </recent_temporary>
   </component>
@@ -658,32 +658,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiamondPrinterTest - 2018.01.08 at 16h 33m 10s.xml">
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 38m 43s.xml">
       <configuration name="DiamondPrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondPrinterTest - 2018.01.08 at 16h 34m 33s.xml">
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 39m 55s.xml">
       <configuration name="DiamondPrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 10m 08s.xml">
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 40m 45s.xml">
       <configuration name="DiamondPrinterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondPrinterTest_testThreeByThreeDiamond - 2018.01.08 at 17h 17m 15s.xml">
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 42m 41s.xml">
+      <configuration name="DiamondPrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 43m 16s.xml">
+      <configuration name="DiamondPrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 45m 56s.xml">
+      <configuration name="DiamondPrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiamondPrinterTest - 2018.01.08 at 17h 47m 09s.xml">
+      <configuration name="DiamondPrinterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DiamondPrinterTest_testThreeByThreeDiamond - 2018.01.08 at 17h 36m 34s.xml">
       <configuration name="DiamondPrinterTest.testThreeByThreeDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondPrinterTest_testTwoByTwoDiamond - 2018.01.08 at 17h 10m 27s.xml">
-      <configuration name="DiamondPrinterTest.testTwoByTwoDiamond" configurationId="JUnit" />
+    <history-entry file="DiamondPrinterTest_testThreeByThreeDiamond - 2018.01.08 at 17h 37m 26s.xml">
+      <configuration name="DiamondPrinterTest.testThreeByThreeDiamond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondPrinterTest_testTwoByTwoDiamond - 2018.01.08 at 17h 11m 09s.xml">
-      <configuration name="DiamondPrinterTest.testTwoByTwoDiamond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiamondPrinterTest_testTwoByTwoDiamond - 2018.01.08 at 17h 11m 44s.xml">
-      <configuration name="DiamondPrinterTest.testTwoByTwoDiamond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiamondPrinterTest_testTwoByTwoDiamond - 2018.01.08 at 17h 12m 24s.xml">
-      <configuration name="DiamondPrinterTest.testTwoByTwoDiamond" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DiamondPrinterTest_testTwoByTwoDiamond - 2018.01.08 at 17h 17m 01s.xml">
-      <configuration name="DiamondPrinterTest.testTwoByTwoDiamond" configurationId="JUnit" />
+    <history-entry file="DiamondPrinterTest_testThreeByThreeDiamond - 2018.01.08 at 17h 38m 35s.xml">
+      <configuration name="DiamondPrinterTest.testThreeByThreeDiamond" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -722,7 +725,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -739,22 +744,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DiamondPrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="662">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiamondPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="79" lean-forward="false" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
           </folding>
         </state>
       </provider>

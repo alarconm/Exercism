@@ -9,9 +9,23 @@ class DiamondPrinter {
 
         int difference = (int) a - 65;
         String start = spaces(difference) + 'A' + spaces(difference);
+        String center = a + spaces(difference + 1) + a;
         diamondList.add(start);
 
-        for (int i = 1; i <= difference; i++) {
+        if (difference < 1) {
+            return diamondList;
+        }
+
+        for (int i = 1; i <= difference -1; i++) {
+            diamondList.add(left(i, difference) + " " + right(i, difference));
+        }
+
+        if (difference == 1) {
+            return diamondList;
+        }
+
+        diamondList.add(center);
+        for (int i = difference -1; i >= 1; i--) {
             diamondList.add(left(i, difference) + " " + right(i, difference));
         }
         diamondList.add(start);
