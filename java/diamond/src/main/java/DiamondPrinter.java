@@ -3,60 +3,36 @@ import java.util.List;
 
 class DiamondPrinter {
 
-    List<String> diamondList = new ArrayList<>();
-
     List<String> printToList(char a) {
 
-        int difference = (int) a - 65;
-        String start = spaces(difference) + 'A' + spaces(difference);
-        String center = a + spaces(difference + 1) + a;
-        diamondList.add(start);
+        List<String> diamondList = new ArrayList<String>();
+        int lines = a - 64;
 
-        if (difference < 1) {
-            return diamondList;
+        for (int i = 0; i < lines; i++) {
+
+            char nextChar = (char) (65 + i);
+            String center = new String();
+
+            if (i > 0) {
+                center = new String(new char[i*2-1]).replace('\0',' ');
+            }
+
+            String affix = new String(new char[lines-i-1]).replace('\0',' ');
+            String nextLine = affix + nextChar + center;
+
+            if (i != 0) {
+                nextLine += nextChar;
+            }
+
+            nextLine += affix;
+            diamondList.add(nextLine);
         }
 
-        for (int i = 1; i <= difference -1; i++) {
-            diamondList.add(left(i, difference) + " " + right(i, difference));
+        if (lines > 1) {
+            for (int i = 1; i < lines; i++) {
+                diamondList.add(diamondList.get(lines - 1 - i));
+            }
         }
-
-        if (difference == 1) {
-            return diamondList;
-        }
-
-        diamondList.add(center);
-        for (int i = difference -1; i >= 1; i--) {
-            diamondList.add(left(i, difference) + " " + right(i, difference));
-        }
-        diamondList.add(start);
-
-
         return diamondList;
     }
-
-    String left(int num, int diff) {
-        return spaces(diff - num) + (char)(65 + num) + spaces(diff - (num + 1));
-    }
-
-    String right(int num, int diff) {
-        return spaces(diff - (num + 1)) + (char)(65 + num) + spaces(diff - num);
-    }
-
-
-
-
-
-
-
-
-
-
-    String spaces(int num) {
-        StringBuilder space = new StringBuilder();
-        for (int i = 0; i < num; i++) {
-            space.append(" ");
-        }
-        return space.toString();
-    }
-
 }
