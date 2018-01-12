@@ -111,7 +111,6 @@ public class FlattenerTest {
               "negative two")));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testNestedListsFullOfNullsOnly() {
         assertEquals(
