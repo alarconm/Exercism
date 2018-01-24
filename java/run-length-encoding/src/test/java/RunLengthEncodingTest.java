@@ -50,13 +50,11 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.encode("aabbbcccc"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeEmpty() {
         Assert.assertEquals("", runLengthEncoding.decode(""));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeWithOnlySingleValues() {
         Assert.assertEquals(
@@ -64,7 +62,6 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.decode("XYZ"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeWithNoSingleValues() {
         Assert.assertEquals(
@@ -72,7 +69,6 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.decode("2A3B4C"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeWithMixedValues() {
         Assert.assertEquals(
@@ -80,7 +76,6 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.decode("12WB12W3B24WB"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeWithWhitespaceValues() {
         Assert.assertEquals(
@@ -88,7 +83,6 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.decode("2 hs2q q2w2 "));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void decodeWithLowercaseValues() {
         Assert.assertEquals(
@@ -96,7 +90,6 @@ public class RunLengthEncodingTest {
                 runLengthEncoding.decode("2a3b4c"));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void encodeThenDecode() {
         String inOut = "zzz ZZ  zZ";
