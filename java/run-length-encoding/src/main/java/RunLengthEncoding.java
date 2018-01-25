@@ -49,8 +49,9 @@ public class RunLengthEncoding {
         for (int i = 0; i < decode.length(); i++) {
             if (Character.isDigit(decode.charAt(i))) {
 
-                int count = decode.charAt(i);
+                int count = Character.getNumericValue(decode.charAt(i));
                 if (Character.isDigit(decode.charAt(i + 1))) {
+//                    String digits = decode.charAt(i) + decode.charAt(i + 1);
                     count += decode.charAt(i + 1);
 
                     for (int k = 0; k < count; k++) {
