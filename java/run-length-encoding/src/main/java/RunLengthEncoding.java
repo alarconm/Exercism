@@ -52,10 +52,11 @@ public class RunLengthEncoding {
                 int count = Character.getNumericValue(decode.charAt(i));
                 if (Character.isDigit(decode.charAt(i + 1))) {
 //                    String digits = decode.charAt(i) + decode.charAt(i + 1);
-                    count += decode.charAt(i + 1);
+                    count = Character.getNumericValue(decode.charAt(i) + decode.charAt(i + 1));
+                    i++;
 
                     for (int k = 0; k < count; k++) {
-                        decoded.append(decode.charAt(i + 2));
+                        decoded.append(decode.charAt(i + 1));
                     }
                 }
                 else {
