@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 public class RunLengthEncoding {
 
@@ -53,7 +52,8 @@ public class RunLengthEncoding {
                 if (Character.isDigit(decode.charAt(i + 1))) {
 //                    String digits = decode.charAt(i) + decode.charAt(i + 1);
                     count = Character.getNumericValue(decode.charAt(i) + decode.charAt(i + 1));
-                    i++;
+
+                    i++; //This breaks the method for the next double digits.
 
                     for (int k = 0; k < count; k++) {
                         decoded.append(decode.charAt(i + 1));
