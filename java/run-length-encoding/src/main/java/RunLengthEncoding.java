@@ -45,19 +45,26 @@ public class RunLengthEncoding {
 
         StringBuilder decoded = new StringBuilder();
 
+
         for (int i = 0; i < decode.length(); i++) {
             if (Character.isDigit(decode.charAt(i))) {
 
                 int count = Character.getNumericValue(decode.charAt(i));
                 if (Character.isDigit(decode.charAt(i + 1))) {
-//                    String digits = decode.charAt(i) + decode.charAt(i + 1);
-                    count = Character.getNumericValue(decode.charAt(i) + decode.charAt(i + 1));
+
+                   StringBuilder digits = new StringBuilder();
+                   digits.append(decode.charAt(i));
+                   digits.append(decode.charAt(i + 1));
+
+                   count = Integer.parseInt(digits.toString());
+                    //count = Character.getNumericValue(decode.charAt(i) + decode.charAt(i + 1));
 
                     i++; //This breaks the method for the next double digits.
 
                     for (int k = 0; k < count; k++) {
                         decoded.append(decode.charAt(i + 1));
                     }
+
                 }
                 else {
                     for (int k = 0; k < count; k++) {
